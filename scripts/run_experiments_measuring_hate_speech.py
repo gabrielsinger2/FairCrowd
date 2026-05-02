@@ -3,17 +3,6 @@ Run FC post-processing experiments on the Measuring Hate Speech dataset.
 
 Dataset:
     ucberkeley-dlab/measuring-hate-speech
-
-Key fixes vs previous version:
-  - choose_s_col_auto now selects the attribute with the LARGEST gold DP gap
-    (subject to minimum group size), so the fairness benchmark actually has
-    a bias to correct.
-  - Default y_threshold is 0.5 (the official binary cutoff per the dataset card).
-  - BROAD targets (target_race, target_gender, ...) are INCLUDED by default,
-    because these have enough samples AND meaningful DP gaps.
-  - Stricter min_annotations_per_item default (5 instead of 2).
-  - Float annotations explicitly clipped to {0,1} to avoid casting edge cases.
-
 Usage:
     python run_experiments_measuring_hate_speech.py --diagnose-only
     python run_experiments_measuring_hate_speech.py --max-items 6000 --max-annotators 800 --n-repet 10
