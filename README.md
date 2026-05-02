@@ -46,15 +46,11 @@ print(f"DP gap:  {DemographicParity_().compute(out.labels, df['s'], df['y']):.3f
 
 All scripts live in `scripts/`. Outputs land in `outputs/` and `faircrowd/benchmark_new/exp_save/`.
 
-### Convergence experiments (Figure 2)
-
-These illustrate Theorem 3.4: the DP gap of the aggregated label converges to that of the ground truth as the crowd size grows, exponentially fast under interpretable conditions on annotator quality.
-
-```bash
-python scripts/run_experiments_synthetic_convergence.py
-```
-
-Three regimes are studied: globally competent annotators, globally adversarial annotators, and non-informative annotators. Results (PDF + PNG + CSV) are saved in `convergence_figures/`.
+<p align="center">
+  <a href="https://github.com/gabrielsinger2/FairCrowd/blob/main/icml2026-26-1.pdf">
+    <img src="paper_figures/icml_paper_preview.png" alt="FairCrowd ICML 2026 paper preview" width="700"/>
+  </a>
+</p>
 
 ### Comparison experiments (Figures 3 and 4)
 
