@@ -47,8 +47,7 @@ print(f"DP gap:  {DemographicParity_().compute(out.labels, df['s'], df['y']):.3f
 All scripts live in `scripts/`. Outputs land in `outputs/` and `faircrowd/benchmark_new/exp_save/`.
 
 <p align="center">
-  <a href="https://github.com/gabrielsinger2/FairCrowd/blob/main/icml2026-26-1.pdf">
-    <img src="paper_figures/icml_paper_preview.png" alt="FairCrowd ICML 2026 paper preview" width="700"/>
+  <img src="https://github.com/gabrielsinger2/FairCrowd/blob/main/icml2026-26-1.pdf" alt="FairCrowd ICML 2026 paper preview" width="700"/>
   </a>
 </p>
 
