@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+crowd-kit
+matplotlib
+seaborn
+fairlearn

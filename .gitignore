@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Backup files
+*~
+*.bak
+
+# Generated outputs
+outputs/
+fig_test/
+convergence_figures/
+figures_crowd_judgement/
+figures_jigsaw/
+figures_measuring_hate_speech/
+figures_sbic/
+figures_synthetic/
+figures_synthetic_compare_corr/
+figures_synthetic_correlated/
+
+# Internal benchmark outputs
+faircrowd/benchmark_new/exp_save/
+
+# Datasets / large files
+data/
+*.parquet
+*.pkl
+*.tgz

@@ -1,0 +1,12 @@
+
+experiment: measuring_hate_speech
+s_col: target_race
+annotation_threshold: 0.5
+y_threshold: 0.5
+max_items: 6000
+max_annotators: 800
+min_annotations_per_item: 5
+min_annotations_per_annotator: 5
+seed: 0
+n_repet: 10
+eps_list: [0.01, 0.03, 0.05, 0.10, 0.15, 0.20, 0.30]
