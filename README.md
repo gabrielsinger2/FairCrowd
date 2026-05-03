@@ -111,10 +111,10 @@ FairCrowd/
 
 ## Datasets
 
-Three benchmarks are bundled in `faircrowd/datasets/`:
+Three benchmarks are proposed in `faircrowd/datasets/`:
 
 - **Synthetic**: 2000 tasks × 100 annotators, configurable annotator skill distributions and sensitive feature imbalance.
-- **Crowd Judgement** (Dressel & Farid, 2018): 1000 COMPAS cases × 20 annotators each. Sensitive = race (Black / non-Black). Task: recidivism prediction.
+- **Crowd Judgement** (Dressel & Farid, 2018): 1000 COMPAS cases × 20 annotators each. Sensitive = race. Task: recidivism prediction.
 - **Jigsaw Toxicity**: 5000 civil comments × heavy-tailed annotator distribution (median 4, std 75). Sensitive = mention of a discriminated identity group. Task: toxicity classification.
 
 Optional benchmarks (Hugging Face):
