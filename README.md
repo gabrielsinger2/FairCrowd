@@ -1,7 +1,7 @@
 # FairCrowd: Fairness-Aware Crowdsourced Label Aggregation 
 
 ##  🎉 Accepted at ICML 2026 🎓✨
-> Authors: Gabriel Singer, Samuel Gruffaz, Vo Van Olivier, Vayatis Nicolas, Kalogeratos Argyris — ICML 2026.
+> Authors: Gabriel Singer, Samuel Gruffaz, Vo Van Olivier, Vayatis Nicolas, Kalogeratos Argyris.
 
 FairCrowd is a **post-processing algorithm** that takes any crowdsourced label aggregator: Majority Vote, Bayesian, Dawid–Skene, and turns it into a strictly **ε-fair** aggregator under a Demographic Parity constraint, with no loss of generality on the upstream method.
 
