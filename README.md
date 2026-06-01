@@ -125,7 +125,15 @@ Optional benchmarks (Hugging Face):
 
 ## Citation
 
-add soon
+@misc{singer2026optimalfairaggregationcrowdsourced,
+      title={Optimal Fair Aggregation of Crowdsourced Noisy Labels using Demographic Parity Constraints}, 
+      author={Gabriel Singer and Samuel Gruffaz and Olivier Vo Van and Nicolas Vayatis and Argyris Kalogeratos},
+      year={2026},
+      eprint={2601.23221},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2601.23221}, 
+}
 
 ---
 
